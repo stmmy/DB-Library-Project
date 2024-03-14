@@ -1,0 +1,36 @@
+body {
+    background-color: #ad2a32;
+}
+
+#bodyDiv {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #912a30;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+#loginDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family:"Andale Mono";
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+}
+
+.loginLabel {
+    color: white;
+    font-size: 20px;
+}
