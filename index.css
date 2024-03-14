@@ -1,0 +1,46 @@
+body {
+    background-color: #ad2a32;
+}
+
+#bodyDiv {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #912a30;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.navButton {
+    border:none;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    display: inline-block;
+    font-size: 25px;
+    border-left: .3px solid black;
+    border-right: .3px solid black;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: #7d2328;
+    justify-content: center;
+    width:100%;
+}
+
+h1 {
+    font-family:"Andale Mono";
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+}
