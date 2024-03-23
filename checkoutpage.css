@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* light red background */
+  }
+
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-height: 50%; /* Set a fixed height */
+    overflow-y: auto; /* make the box scrollable */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+ 
+  .account-number-label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center; /* Center the text */
+    
+  }
+  .account-number-value {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Optionally, make the value bold */
+    margin-top: 20px; /* Add some top margin to create space */
+
+
+    }
